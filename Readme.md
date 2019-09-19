@@ -10,6 +10,7 @@
 - git commit: Commit the changes from Stagiung area to current branch
 - git log: show the history of various commits.
 - git branch: list all branches
+- git checkout: this checout the branch name and switch to that branch. It also update the HEAD.
 - git branch -b <branch_name>: create a new branch and then switch to it.
 
 ## what is a branch?
