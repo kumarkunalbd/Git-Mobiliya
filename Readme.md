@@ -9,6 +9,9 @@
 - git status: Compare the status of various file in git staging area, working directory and currrent branch
 - git commit: Commit the changes from Stagiung area to current branch
 - git log: show the history of various commits.
+- git branch -c: Create a new branch. But remain on previous branch. Dint switch to new branch.
+- git checkout <branch_name> :  Switched to the branch name.
+
 
 # Commit messages
     - use default editor vim to tyope commit messagees and the esc+wq
