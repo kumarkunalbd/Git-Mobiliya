@@ -9,6 +9,7 @@
 - git status: Compare the status of various file in git staging area, working directory and currrent branch
 - git commit: Commit the changes from Stagiung area to current branch
 - git log: show the history of various commits.
+- git checkout: final clarification what git checkout does. This descrition was added after adding descritpion about stash command in stahs branch.
 
 # Commit messages
     - use default editor vim to tyope commit messagees and the esc+wq
