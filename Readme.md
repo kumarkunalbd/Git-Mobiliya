@@ -15,3 +15,6 @@
 # Commit messages
     - use default editor vim to tyope commit messagees and the esc+wq
     - alternatively you can use "git commit -m <"the message need to be wrotten here"> "
+
+# What is merging?
+Merging is combining code changes from one branch to another branch.
