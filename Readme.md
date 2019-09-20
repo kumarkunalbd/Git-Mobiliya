@@ -18,3 +18,5 @@
 
 # What is merging?
 Merging is combining code changes from one branch to another branch.
+
+- A fats forward merge happenes when the target branch was taken out of the current branch. when it is merged with the current branch then current branch moves ahead of target branch when any further commits happen on current branch.
