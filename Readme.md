@@ -21,5 +21,7 @@ Merging is combining code changes from one branch to another branch.
 
 - A fats forward merge happenes when the target branch was taken out of the current branch. when it is merged with the current branch then current branch moves ahead of target branch when any further commits happen on current branch.
 
+- an automatic merge happens when 2 logs or history diverged or get branched themselves. However, noth of them can be brought together or reconciled with help of merge command give that they dont hasve conflict. this reconciled into 1 set of cnages and changes are committed on current branch.
+
 # what happens when different set of changes in 2 branches while merging?
     In that case changes of bith branches are incorporated while merging(If they are not conflicting)
