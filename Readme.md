@@ -12,6 +12,9 @@
 - git show: show the differences in a single commit
 - git diff: show the differenecs between working direcotry, staging area and  commits.
 - git checkout: final clarification what git checkout does. This descrition was added after adding descritpion about stash command in stahs branch. this checout the branch name and switch to that branch. It also update the HEAD.
+- git stash: stash all changes from working directory by creating a stash pointer in .git
+- git stash list: list all stashes 
+- git stash pop: apply stahs changes to working directory on that branch from where it was stahed. need to checkout that branch before popping up. 
 - git branch -c: Create a new branch. But remain on previous branch. Dint switch to new branch.
 - git merge: It merges the changes of 1 brabnch to another branch
 - git branch: list all branches
