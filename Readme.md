@@ -22,7 +22,7 @@
 - git remote add <remote> <url>: add a new <remote> at <url>
 - git remote -v: list remote repositories
 - git push -u <remote> <branch>: Push <branch. to <remote> repository and set a default upstream for <branch>
-- git fetch : Get changes from remote repository to local repository.
+- git fetch : Get changes from remote repository to local repository. The local branch will be behind the remote branch. usder will have to do git merge to take the loacl till the remote branch update.
 
 ## what is a branch?
     A branch is ref(ence) to commit id. when HEAD point to a branch then we say that we are on that branch.
