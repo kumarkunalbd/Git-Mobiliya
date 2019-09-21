@@ -9,6 +9,8 @@
 - git status: Compare the status of various file in git staging area, working directory and currrent branch
 - git commit: Commit the changes from Stagiung area to current branch
 - git log: show the history (aka "log") of various commits.
+- git show: show the differences in a single commit
+- git diff: show the differenecs between working direcotry, staging area and  commits.
 - git checkout: final clarification what git checkout does. This descrition was added after adding descritpion about stash command in stahs branch. this checout the branch name and switch to that branch. It also update the HEAD.
 - git branch -c: Create a new branch. But remain on previous branch. Dint switch to new branch.
 - git merge: It merges the changes of 1 brabnch to another branch
@@ -21,6 +23,8 @@
 
 ## what is HEAD?
     It is just a ref(erence) to the current branch. "git checkout <branch_name>"  uodate the HEAD to ref(er) to a new branch or say the commit id.
+
+
 
 # Commit messages
     - use default editor vim to tyope commit messagees and the esc+wq
