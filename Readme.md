@@ -19,6 +19,9 @@
 - git merge: It merges the changes of 1 brabnch to another branch
 - git branch: list all branches
 - git branch -b <branch_name>: create a new branch and then switch to it.
+- git remote add <remote> <url>: add a new <remote> at <url>
+- git remote -v: list remote repositories
+- git push -u <remote> <branch>: Push <branch. to <remote> repository and set a default upstream for <branch>
 
 ## what is a branch?
     A branch is ref(ence) to commit id. when HEAD point to a branch then we say that we are on that branch.
