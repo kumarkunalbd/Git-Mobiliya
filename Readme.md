@@ -23,6 +23,7 @@
 - git remote -v: list remote repositories
 - git push -u <remote> <branch>: Push <branch. to <remote> repository and set a default upstream for <branch>
 - git fetch : Get changes from remote repository to local repository. The local branch will be behind the remote branch. usder will have to do git merge to take the loacl till the remote branch update.
+- git pull: It fetchesd and the  merge the changes from remote repository to local working directoy.
 
 ## what is a branch?
     A branch is ref(ence) to commit id. when HEAD point to a branch then we say that we are on that branch.
@@ -46,3 +47,9 @@ Merging is combining code changes from one branch to another branch.
 
 # what happens when different set of changes in 2 branches while merging?
     In that case changes of bith branches are incorporated while merging(If they are not conflicting)
+
+
+# what is remote?
+  Remote repos are those repos which are hosted on some other server than our local reposiroty.
+  "git remote add" sets up the *tracking branches" which can compare the changes between the local repository and the remote repository.
+  The changes are pushed to remote by using 'git push'. Similary the changes from remote repos to loacl repo are brought by using 'git fetch' and then 'git merge'. alternatively, both these steps can be performed in 1 step by using 'git pull'.
